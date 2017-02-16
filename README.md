@@ -1,9 +1,11 @@
-[Share.js](http://overtrue.me/share.js/)
+[Share.js](https://github.com/wleonardo/share.js)
 ===
 
 一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站，同时支持在微信浏览器中的右上角提示功能。
 
-[DEMO](http://benoob.com/share.js/index.html)
+[DEMO](http://benoob.com/share.js/demo/test-no-jquery.html)
+
+> 请先关闭AB Block等广告屏蔽插件哦 :construction:
 
 # 安装
 
@@ -105,6 +107,8 @@ wechatQrcodeHelper  : '<p>微信里点“发现”，扫一下</p><p>二维码�
 欢迎贡献代码及提建议！
 
 # 引用
+
+本插件改自[overtrue/share.js](https://github.com/overtrue/share.js)
 
 本项目中二维码生成部分用到了开源组件：[lrsjng/jquery-qrcode](https://github.com/lrsjng/jquery-qrcode) (MIT License)
 
