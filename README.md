@@ -1,33 +1,13 @@
 [Share.js](http://overtrue.me/share.js/)
 ===
 
-一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
+一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站，同时支持在微信浏览器中的右上角提示功能。
 
-![qq20151127-1 2x](https://cloud.githubusercontent.com/assets/1472352/11433126/05f8b0e0-94f4-11e5-9fca-74dc9d1b633f.png)
-
-
-[DEMO](http://overtrue.me/share.js/)
-
-或者直接浏览我的博客 http://overtrue.me 或者 http://laravel.so 内容页查看效果。
+[DEMO](http://benoob.com/share.js/index.html)
 
 # 安装
 
-有3种安装方式：
-
-1. 使用 [npm](https://npmjs.com)
-
-    ```shell
-    npm install social-share.js
-    ```
-2. 使用 [bower](https://bower.io)
-
-    ```shell
-    bower install social-share.js
-    ```
-
-3. 使用 [cdnjs](https://cdnjs.com/libraries/social-share.js)，引入 `share.min.css` 与 `share.min.js` 两个链接就好。 (感谢 [@mdluo](https://github.com/mdluo))
-
-4. 手动下载或者 git clone 本项目。
+ 手动下载或者 git clone 本项目。
 
 # 使用
 
@@ -51,7 +31,7 @@ HTML:
 可用的配置有：
 
 ```js
-
+desc                : '', // 文字说明，默认使用 "分享:"
 url                 : '', // 网址，默认使用 window.location.href
 source              : '', // 来源（QQ空间会用到）, 默认读取head标签：<meta name="site" content="http://overtrue" />
 title               : '', // 标题，默认读取 document.title 或者 <meta name="title" content="share.js" />

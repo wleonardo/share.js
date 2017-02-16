@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>test</title>
@@ -7,18 +8,23 @@
   <meta name="Site" content="content Site">
   <meta name="title" content="content title">
   <meta name="Title" content="content Title">
+  <meta name="description" content="PHP弱类型的实现原理分析" />
   <link rel="stylesheet" href="../dist/css/share.min.css">
-
   <style>
-  .row{padding: 20px 0 0 20px}
-  .row-pad{padding: 20px 0 0 60px}
+  .row {
+    padding: 20px 0 0 20px
+  }
+  
+  .row-pad {
+    padding: 20px 0 0 60px
+  }
   </style>
 </head>
+
 <body>
   <div class="row-pad">
     <h1>test</h1>
   </div>
-
   <ol>
     <li class="row">
       <div class="social-share" data-sites="weibo,qq,qzone,tencent"></div>
@@ -54,13 +60,18 @@
       <div id="share-4" data-disabled="wechat , facebook, twitter, google"></div>
     </li>
   </ol>
-
-<script src="../src/js/social-share.js"></script>
-<script>
-socialShare('#share-1');
-socialShare('#share-2', {sites: ['qzone', 'qq', 'weibo','wechat']});
-socialShare('#share-3');
-socialShare('#share-4');
-</script>
+  <script type="text/javascript" src="../src/js/qrcode.js"></script>
+  <script src="../src/js/social-share.js"></script>
+  <script>
+  socialShare('#share-1', {
+    sites: ['qzone', 'facebook', 'weibo', 'wechat']
+  });
+  socialShare('#share-2', {
+    sites: ['qzone', 'qq', 'weibo', 'wechat']
+  });
+  socialShare('#share-3');
+  socialShare('#share-4');
+  </script>
 </body>
+
 </html>
