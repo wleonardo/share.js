@@ -61,7 +61,7 @@
     douban: 'http://shuo.douban.com/!service/share?href={{URL}}&name={{TITLE}}&text={{DESCRIPTION}}&image={{IMAGE}}&starid=0&aid=0&style=11',
     diandian: 'http://www.diandian.com/share?lo={{URL}}&ti={{TITLE}}&type=link',
     linkedin: 'http://www.linkedin.com/shareArticle?mini=true&ro=true&title={{TITLE}}&url={{URL}}&summary={{SUMMARY}}&source={{SOURCE}}&armin=armin',
-    facebook: 'https://www.facebook.com/sharer/sharer.php?u={{URL}}&title={{TITLE}}%20%23%23%20{{DESCRIPTION}}',
+    facebook: 'https://www.facebook.com/sharer/sharer.php?u={{URL}}&title={{TITLE}}&description={{DESCRIPTION}}&picture={{IMAGE}}',
     twitter: 'https://twitter.com/intent/tweet?text={{TITLE}}&url={{URL}}&via={{ORIGIN}}',
     google: 'https://plus.google.com/share?url={{URL}}'
   };
