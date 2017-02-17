@@ -3,6 +3,12 @@
 
 一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站，同时支持在微信浏览器中的右上角提示功能。
 
+新增内容
+
+* 微信浏览器中分享提示
+* 重复初始化
+* 更新分享参数
+
 [DEMO](http://benoob.com/share.js/demo/test-no-jquery.html)
 
 > 请先关闭AB Block等广告屏蔽插件哦 :construction:
